@@ -21,7 +21,7 @@ class ChatListViewModel : ViewModel() {
         val sampleChats = listOf(
             Chat(
                 id = "1",
-                name = "vertiGO",
+                name = "vertiGO Lewis",
                 lastMessage = "That's great! What kind of projects?",
                 timestamp = System.currentTimeMillis() - 2400000,
                 unreadCount = 2,
@@ -29,7 +29,7 @@ class ChatListViewModel : ViewModel() {
             ),
             Chat(
                 id = "2",
-                name = "Alice Johnson",
+                name = "Alice Kimani",
                 lastMessage = "Hey, are you free for a call?",
                 timestamp = System.currentTimeMillis() - 3600000,
                 unreadCount = 1,
@@ -37,7 +37,7 @@ class ChatListViewModel : ViewModel() {
             ),
             Chat(
                 id = "3",
-                name = "Bob Smith",
+                name = "DJ Afro",
                 lastMessage = "Thanks for the help yesterday!",
                 timestamp = System.currentTimeMillis() - 86400000,
                 unreadCount = 0,
@@ -45,7 +45,7 @@ class ChatListViewModel : ViewModel() {
             ),
             Chat(
                 id = "4",
-                name = "Carol Davis",
+                name = "Meru Kianjai",
                 lastMessage = "Meeting at 3pm confirmed",
                 timestamp = System.currentTimeMillis() - 172800000,
                 unreadCount = 0,
@@ -53,7 +53,7 @@ class ChatListViewModel : ViewModel() {
             ),
             Chat(
                 id = "5",
-                name = "David Wilson",
+                name = "Mitchel Ndungu",
                 lastMessage = "Can you review the document?",
                 timestamp = System.currentTimeMillis() - 259200000,
                 unreadCount = 5,
@@ -61,7 +61,7 @@ class ChatListViewModel : ViewModel() {
             ),
             Chat(
                 id = "6",
-                name = "Emma Thompson",
+                name = "Kasongo Eehh",
                 lastMessage = "See you tomorrow!",
                 timestamp = System.currentTimeMillis() - 345600000,
                 unreadCount = 0,
@@ -69,7 +69,7 @@ class ChatListViewModel : ViewModel() {
             ),
             Chat(
                 id = "7",
-                name = "Frank Miller",
+                name = "Nameless Person",
                 lastMessage = "The presentation went well",
                 timestamp = System.currentTimeMillis() - 432000000,
                 unreadCount = 1,
@@ -77,7 +77,7 @@ class ChatListViewModel : ViewModel() {
             ),
             Chat(
                 id = "8",
-                name = "Grace Lee",
+                name = "vertiGO 0628",
                 lastMessage = "Happy birthday! 🎉",
                 timestamp = System.currentTimeMillis() - 518400000,
                 unreadCount = 0,
