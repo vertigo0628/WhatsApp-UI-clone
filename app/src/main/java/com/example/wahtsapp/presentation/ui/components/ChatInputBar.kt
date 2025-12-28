@@ -1,5 +1,6 @@
 package com.example.wahtsapp.presentation.ui.components
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Send
@@ -7,7 +8,9 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.shape.RoundedCornerShape
 import com.example.wahtsapp.presentation.theme.*
 
 @Composable
@@ -20,7 +23,8 @@ fun ChatInputBar(
     Row(
         modifier = modifier
             .fillMaxWidth()
-            .background(Neutral10)
+            .background(MaterialTheme.colorScheme.surface)
+            .clip(RoundedCornerShape(24.dp))
             .padding(8.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {

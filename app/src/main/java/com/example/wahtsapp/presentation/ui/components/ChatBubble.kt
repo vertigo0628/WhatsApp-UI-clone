@@ -35,7 +35,7 @@ fun ChatBubble(
                 fontSize = 12.sp,
                 fontWeight = FontWeight.Bold,
                 color = Neutral60,
-                modifier = Modifier.padding(horizontal = 12.dp, bottom = 2.dp)
+                modifier = Modifier.padding(horizontal = 12.dp).padding(bottom = 2.dp)
             )
         }
         
@@ -50,7 +50,7 @@ fun ChatBubble(
                     )
                 )
                 .background(bubbleColor)
-                .padding(12.dp)
+                .padding(all = 12.dp)
         ) {
             Text(
                 text = message.text,
@@ -64,7 +64,7 @@ fun ChatBubble(
             text = formatTimestamp(message.timestamp),
             fontSize = 11.sp,
             color = Neutral60,
-            modifier = Modifier.padding(horizontal = 12.dp, top = 2.dp)
+            modifier = Modifier.padding(horizontal = 12.dp).padding(top = 2.dp)
         )
     }
 }
